@@ -1,0 +1,60 @@
+{
+  "name": "pg",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "core-js": "^3.8.3",
+    "element-ui": "^2.15.8",
+    "js-cookie": "^3.0.1",
+    "jsencrypt": "^3.2.1",
+    "nipplejs": "^0.9.0",
+    "store": "^2.0.12",
+    "stylus": "^0.57.0",
+    "stylus-loader": "^7.0.0",
+    "swiper": "^4.5.1",
+    "vue": "^2.6.14",
+    "vue-awesome-swiper": "^4.0.4",
+    "vue-cookies": "^1.8.1",
+    "vue-router": "^3.0.7",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-html": "6.1.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "browser": true,
+      "jquery": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser",
+      "requireConfigFile": false
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
